@@ -1,0 +1,51 @@
+{
+	"compilerOptions": {
+		"lib": ["dom", "dom.iterable"],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"strict": true,
+		"alwaysStrict": true,
+		"strictNullChecks": true,
+		"noUncheckedIndexedAccess": true,
+
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"allowUnreachableCode": false,
+		"noFallthroughCasesInSwitch": true,
+
+		"target": "es5",
+		"outDir": "build",
+		"declaration": true,
+		"sourceMap": true,
+
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"allowJs": false,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"noEmit": true,
+		"isolatedModules": true,
+		"incremental": true,
+
+		"jsx": "react",
+		"baseUrl": "./src",
+		"paths": {
+			"@/APIs": ["./APIs"],
+			"@/Fields": ["./Components/Fields"],
+			"@/Hooks": ["./Hooks"],
+			"@/Pages": ["./Pages"],
+			"@/Store": ["./Store"],
+			"@/Translation": ["./Translation"],
+			"@/Utils": ["./Utils"]
+		}
+	},
+	"exclude": ["./node_modules/**/*"],
+	"include": ["src/**/*"]
+}
